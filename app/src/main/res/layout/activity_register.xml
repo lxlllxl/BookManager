@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.bookmanager.admin.registerActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="159dp"
+        android:src="@mipmap/user1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/r_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="请输入用户名"
+        />
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/r_name"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@mipmap/pwd1" />
+
+    <EditText
+        android:id="@+id/r_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/imageview2"
+        android:layout_alignLeft="@+id/r_name"
+        android:layout_alignStart="@+id/r_name"
+        android:hint="请输入密码"/>
+
+    <Button
+        android:id="@+id/r_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="返回"
+        android:background="#fff"
+        android:textSize="18sp"
+        android:layout_below="@+id/r_repwd"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <Button
+        android:id="@+id/r_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_alignBaseline="@+id/r_back"
+        android:layout_alignBottom="@+id/r_back"
+        android:layout_alignRight="@+id/r_password"
+        android:layout_alignEnd="@+id/r_password"
+        android:background="#fff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/r_name"
+        android:layout_alignLeft="@+id/r_name"
+        android:layout_alignStart="@+id/r_name"
+        android:layout_marginBottom="68dp"
+        android:text="用户注册"
+        android:textColor="#EA2000"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/pwd1"
+        android:layout_below="@+id/r_password"
+        android:layout_alignLeft="@+id/imageview2"
+        android:layout_alignStart="@+id/imageview2"
+        android:layout_marginTop="11dp" />
+
+    <EditText
+        android:id="@+id/r_repwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_alignLeft="@+id/r_password"
+        android:layout_alignStart="@+id/r_password"
+        android:hint="确认密码"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@mipmap/xx"
+        android:layout_below="@+id/r_repwd"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <EditText
+        android:id="@+id/r_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignRight="@+id/r_register"
+        android:layout_alignEnd="@+id/r_register"
+        android:hint="email"/>
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.bookmanager.admin.houtai_admin.admin_manager_book">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="管理图书"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/manbook_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="#fff"
+            app:srcCompat="@mipmap/left_arrow" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:background="#fff"
+            android:src="@mipmap/add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/add"
+            android:layout_toEndOf="@+id/add"
+            android:layout_toRightOf="@+id/add"
+            android:gravity="center_vertical"
+            android:text="添加图书"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/ad_add"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="#fff"
+            android:src="@mipmap/right_arrow" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#fff"
+            android:src="@mipmap/edit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@id/edit"
+            android:layout_toEndOf="@id/edit"
+            android:layout_toRightOf="@id/edit"
+            android:text="编辑图书"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/ad_edit"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="#fff"
+            android:src="@mipmap/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#fff"
+            android:src="@mipmap/delete" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@id/delete"
+            android:layout_toEndOf="@id/delete"
+            android:layout_toRightOf="@id/delete"
+            android:text="删除图书"
+            android:textSize="20sp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/ad_delete"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="#fff"
+            android:src="@mipmap/right_arrow" />
+    </RelativeLayout>
+</LinearLayout>

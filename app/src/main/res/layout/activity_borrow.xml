@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.administrator.bookmanager.admin.qiantai_admin.borrowActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="书籍编号:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bookbid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="书籍名称:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bookbname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="书籍作者:"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/bookbauthor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="价格:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bookbprice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="页数:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bookbpage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/borroe_bt"
+        android:textColor="#EA2000"
+        android:background="#fff"
+        android:text="借阅"
+        android:textSize="25sp"
+        />
+</LinearLayout>

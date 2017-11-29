@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.bookmanager.admin.MainActivity"
+    android:background="@mipmap/book2"
+    android:alpha="0.8">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="159dp"
+       android:src="@mipmap/user1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@mipmap/pwd1" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/imageview2"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="登录"
+        android:background="#D1EEEE"
+        android:textColor="#EA2000"
+        android:textSize="15sp"
+        android:layout_below="@+id/rmber_pwd"
+        android:layout_alignLeft="@+id/imageview2"
+        android:layout_alignStart="@+id/imageview2"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:background="#D1EEEE"
+        android:textColor="#EA2000"
+        android:textSize="15sp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/login"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignStart="@+id/login"
+        android:layout_alignRight="@+id/login"
+        android:layout_alignEnd="@+id/login" />
+
+    <ImageButton
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        app:srcCompat="@mipmap/right"
+        android:background="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/register"
+        android:layout_alignEnd="@+id/register" />
+
+    <CheckBox
+        android:id="@+id/rmber_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"
+        android:layout_alignBaseline="@+id/auto_login"
+        android:layout_alignBottom="@+id/auto_login"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignStart="@+id/login" />
+
+    <CheckBox
+        android:id="@+id/auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动登录"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+</RelativeLayout>

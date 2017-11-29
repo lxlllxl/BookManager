@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scan_left_bottom.png",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scan_left_bottom.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scan_left_top.png",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scan_left_top.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scan_right_bottom.png",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scan_right_bottom.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scan_right_top.png",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scan_right_top.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scan_line.png",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scan_line.png"
+    }
+]

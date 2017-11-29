@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 点击我的借阅信息-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.bookmanager.admin.qiantai_admin.jieyueInfo">
+
+    <ImageButton
+        android:id="@+id/imageborrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="11dp"
+        android:background="#fff"
+        app:srcCompat="@mipmap/jieshu1" />
+
+    <ImageButton
+        android:id="@+id/imagepay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:srcCompat="@mipmap/haishu"
+        android:layout_below="@+id/imageborrow"
+        android:layout_alignLeft="@+id/imageborrow"
+        android:layout_alignStart="@+id/imageborrow"
+        android:layout_marginTop="98dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="我的借阅"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/imageborrow"
+        android:layout_toRightOf="@+id/imageborrow"
+        android:layout_toEndOf="@+id/imageborrow" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagepay"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:text="我的归还"
+        android:textSize="25sp"/>
+</RelativeLayout>

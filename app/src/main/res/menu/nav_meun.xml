@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        //表示菜单只能单选
+
+        <item
+            android:id="@+id/shoucang"
+            android:icon="@mipmap/shoucang"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/jieyue"
+            android:icon="@mipmap/jieyue"
+            android:title="借阅信息" />
+        <item
+            android:id="@+id/message"
+            android:icon="@mipmap/xx"
+            android:title="我的消息" />
+
+        <item
+            android:id="@+id/saoyisao"
+            android:icon="@mipmap/sys"
+            android:title="扫一扫" />
+
+        <item
+            android:id="@+id/set"
+            android:icon="@mipmap/shezhi"
+            android:title="设置" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@mipmap/exit"
+            android:title="退出" />
+    </group>
+</menu>

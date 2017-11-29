@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_outside_scan.xml",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_outside_scan.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_scan_area.xml",
+        "source": "D:\\AndroidStudioProjects\\BookManager\\zxing\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_scan_area.xml"
+    }
+]

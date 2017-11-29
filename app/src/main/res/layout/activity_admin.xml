@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.bookmanager.admin.AdminActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="159dp"
+        android:src="@mipmap/user1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/a_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/a_name"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@mipmap/pwd1" />
+
+    <EditText
+        android:id="@+id/a_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+      android:inputType="textPassword"
+        android:layout_alignTop="@+id/imageview2"
+        android:layout_alignLeft="@+id/a_name"
+        android:layout_alignStart="@+id/a_name" />
+
+    <Button
+        android:id="@+id/a_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="53dp"
+        android:text="返回"
+        android:layout_below="@+id/a_password"
+        android:layout_alignLeft="@+id/imageview2"
+        android:layout_alignStart="@+id/imageview2"
+        android:background="#fff"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/a_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_alignBaseline="@+id/a_back"
+        android:layout_alignBottom="@+id/a_back"
+        android:layout_alignRight="@+id/a_password"
+        android:layout_alignEnd="@+id/a_password"
+        android:background="#fff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/a_name"
+        android:layout_alignLeft="@+id/a_name"
+        android:layout_alignStart="@+id/a_name"
+        android:layout_marginBottom="68dp"
+        android:text="管理员登录"
+        android:textColor="#EA2000"
+        android:textSize="30sp"/>
+</RelativeLayout>
+

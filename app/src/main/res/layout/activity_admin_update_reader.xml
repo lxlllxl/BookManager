@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.bookmanager.admin.houtai_admin.admin_update_reader">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="编辑读者信息"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/updater_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="#fff"
+            app:srcCompat="@mipmap/left_arrow" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="66dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="159dp"
+            android:src="@mipmap/user1" />
+
+        <EditText
+            android:id="@+id/update_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:ems="10"
+            android:hint="请输入用户名"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/update_name"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/pwd1" />
+
+        <EditText
+            android:id="@+id/update_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/update_name"
+            android:layout_alignStart="@+id/update_name"
+            android:layout_alignTop="@+id/imageview2"
+            android:ems="10"
+            android:hint="请输入密码"
+             />
+
+        <Button
+            android:id="@+id/update_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="修改信息"
+            android:textSize="18sp"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/update_email"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/imageview2"
+            android:layout_alignStart="@+id/imageview2"
+            android:layout_below="@+id/update_password"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/xx" />
+
+        <EditText
+            android:id="@+id/update_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textPersonName"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignLeft="@+id/update_password"
+            android:layout_alignStart="@+id/update_password" />
+
+    </RelativeLayout>
+</LinearLayout>

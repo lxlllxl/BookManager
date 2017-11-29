@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.bookmanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/booklogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".admin.MainActivity"
+            android:label="拂晓图书">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".admin.registerActivity" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity android:name=".admin.qiantai_admin.contentActivity" />
+        <activity android:name=".admin.houtai_admin.admin_content" />
+        <activity android:name=".admin.houtai_admin.admin_select_message" />
+        <activity android:name=".admin.houtai_admin.admin_manager_book" />
+        <activity android:name=".admin.houtai_admin.admin_manager_reader" />
+        <activity android:name=".admin.houtai_admin.select_reader_admin" />
+        <activity android:name=".admin.houtai_admin.admin_add_reader" />
+        <activity android:name=".admin.houtai_admin.admin_delete_reader" />
+        <activity android:name=".admin.houtai_admin.admin_editer_reader" />
+        <activity android:name=".admin.houtai_admin.admin_update_reader" />
+        <activity android:name=".admin.houtai_admin.admin_add_book" />
+        <activity android:name=".admin.houtai_admin.admin_edit_book" />
+        <activity android:name=".admin.houtai_admin.admin_delete_book" />
+        <activity android:name=".admin.houtai_admin.admin_upadte_book" />
+        <activity android:name=".admin.houtai_admin.admin_select_bookinfo" />
+        <activity android:name=".admin.qiantai_admin.borrowActivity" />
+        <activity android:name=".admin.qiantai_admin.person_borrow" />
+        <activity android:name=".admin.qiantai_admin.jieyueInfo" />
+        <activity android:name=".admin.houtai_admin.admin_borrow_info" />
+        <activity android:name=".admin.houtai_admin.admin_pay_info" />
+        <activity android:name=".admin.qiantai_admin.PayActivity" />
+        <activity android:name=".admin.qiantai_admin.person_pay" />
+        <activity android:name=".admin.qiantai_admin.ScanActivity"></activity>
+    </application>
+
+</manifest>
